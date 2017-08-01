@@ -16,5 +16,9 @@
     "standard": "^10.0.2",
     "stylelint": "^8.0.0",
     "stylelint-config-standard": "^17.0.0"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }
