@@ -4,6 +4,7 @@
   "description": "Living Style-guide for UI development",
   "main": "index.js",
   "scripts": {
+    "dev": "start-storybook -p 9001 -c .storybook -s ./src/assets",
     "lint": "npm run lint:js && npm run lint:css",
     "lint:css": "stylelint src/**/*.css",
     "lint:js": "standard",
